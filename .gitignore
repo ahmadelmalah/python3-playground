@@ -1,5 +1,6 @@
 # Stop tracking juypter checkpoints
 /.ipynb_checkpoints
+/**/.ipynb_checkpoints
 
 # Python Bytecode
 __pycache__/
