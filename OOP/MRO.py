@@ -1,6 +1,7 @@
 class A:
+    @classmethod
     def hello(self):
-        print("A")
+        print("A Class")
 
 
 class B(A):
