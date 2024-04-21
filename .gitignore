@@ -1,5 +1,6 @@
 # Stop tracking juypter checkpoints
 /.ipynb_checkpoints
+.virtual_documents
 /**/.ipynb_checkpoints
 
 # Python Bytecode
