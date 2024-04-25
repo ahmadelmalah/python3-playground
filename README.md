@@ -31,5 +31,5 @@ https://github.com/ahmadelmalah/asyncio-websockets-playground
 https://github.com/ahmadelmalah/boto3
 
 ### PhiData
-https://github.com/phidatahq/phidata
-https://github.com/phidatahq/phidata-docs
+- https://github.com/phidatahq/phidata
+- https://github.com/phidatahq/phidata-docs
