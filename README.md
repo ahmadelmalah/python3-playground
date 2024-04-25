@@ -29,3 +29,7 @@ https://github.com/ahmadelmalah/asyncio-websockets-playground
 ## My Contributions to Python Open Source Community
 ### AWS Boto3
 https://github.com/ahmadelmalah/boto3
+
+### PhiData
+https://github.com/phidatahq/phidata
+https://github.com/phidatahq/phidata-docs
