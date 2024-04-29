@@ -1,5 +1,8 @@
 # My Python Playground
-This repo is for general python experiments, for playgrounds related to specific topics and frameworks please see below:
+This repo is for general python experiments
+https://github.com/ahmadelmalah/python3-playground
+
+For playgrounds related to specific topics and frameworks please see below:
 
 ## Machine Learning:
 
