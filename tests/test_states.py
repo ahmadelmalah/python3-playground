@@ -8,8 +8,8 @@ def test_fail():
 
 
 def test_fail2():
-    x = 5 / 0
-    assert sum(1, 2) == 3
+    5 / 0
+    assert True
 
 
 def test_dot_fail():
@@ -17,13 +17,18 @@ def test_dot_fail():
         pytest.fail("This test failed because the sum is not 4")
 
 
-# 2 passed
+# 3 passed
 def test_pass():
     assert sum(1, 2) == 3
 
 
 def test_pass2():
     assert None is None
+
+
+def test_match():
+    with pytest.raises(ValueError, match=r".* 123 .*"):
+        myfunc_error()
 
 
 # 1 skipped
@@ -47,8 +52,3 @@ def test_sum_negative_raise():
 @pytest.mark.xfail()
 def test_sum_positive():
     assert sum(1, 2) == 3
-
-
-def test_match():
-    with pytest.raises(ValueError, match=r".* 123 .*"):
-        myfunc_error()
